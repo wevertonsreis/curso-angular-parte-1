@@ -9,7 +9,7 @@ import { PhotosModel } from './photos/photos.modules';
   ],
   imports: [
     BrowserModule,
-    PhotosModel
+    PhotosModel,
   ],
   providers: [],
   bootstrap: [AppComponent]
