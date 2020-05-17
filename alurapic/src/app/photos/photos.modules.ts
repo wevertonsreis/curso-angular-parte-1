@@ -1,3 +1,5 @@
+import { LoadButtonComponent } from './photo-list/load-button/load-button.component';
+import { FilterByDescription } from './photo-list/filter-by-description.pipe';
 import { PhotosComponent } from './photo-list/photos/photos.component';
 import { PhotoFormComponent } from './photo-form/photo-form.component';
 import { NgModule } from '@angular/core';
@@ -12,7 +14,9 @@ import { PhotoListComponent } from './photo-list/photo-list.component';
     PhotoComponent,
     PhotoListComponent,
     PhotoFormComponent,
-    PhotosComponent
+    PhotosComponent,
+    FilterByDescription,
+    LoadButtonComponent
   ],
   imports: [
     HttpClientModule,
